@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Ads AdmobKotlin</string>
+
+
+    <!-- Agregar los ID de los Banners, Intersticials y Rewarded generados por tu cuenta de Admob -->
+    <!-- Banners-->
+    <string name="banner_ad_id">ca-app-pub-9732878500971486/9529195061</string>
+    <string name="banner_ad_id2">ca-app-pub-9732878500971486/2960557916</string>
+    <string name="banner_ad_id3">ca-app-pub-9732878500971486/3688150376</string>
+    <string name="banner_ad_id4">ca-app-pub-9732878500971486/7086988267</string>
+    <string name="banner_ad_id5">ca-app-pub-9732878500971486/1647476247</string>
+    <string name="banner_ad_id6">ca-app-pub-9732878500971486/3402576891</string>
+    <string name="banner_ad_id7">ca-app-pub-9732878500971486/2375068702</string>
+    <string name="banner_ad_id8">ca-app-pub-9732878500971486/1061987032</string>
+    <string name="banner_ad_id9">ca-app-pub-9732878500971486/2089495220</string>
+    <string name="banner_ad_id10">ca-app-pub-9732878500971486/3039932049</string>
+
+    <!-- Intersticial-->
+    <string name="interstitial_ad_unit_id1">ca-app-pub-9732878500971486/5352585838</string>
+    <string name="interstitial_ad_unit_id2">ca-app-pub-9732878500971486/5175017085</string>
+    <string name="interstitial_ad_unit_id3">ca-app-pub-9732878500971486/4039504166</string>
+    <string name="interstitial_ad_unit_id4">ca-app-pub-9732878500971486/4460824920</string>
+    <string name="interstitial_ad_unit_id5">ca-app-pub-9732878500971486/7354581576</string>
+
+    <string-array name="arrayInterstial">
+        <item>@string/interstitial_ad_unit_id1</item>
+        <item>@string/interstitial_ad_unit_id2</item>
+        <item>@string/interstitial_ad_unit_id3</item>
+        <item>@string/interstitial_ad_unit_id4</item>
+        <item>@string/interstitial_ad_unit_id5</item>
+    </string-array>
+
+    <!-- Bonificado-->
+    <string name="bonificado_ad_unit_id1">ca-app-pub-9732878500971486/1834661581</string>
+    <string name="bonificado_ad_unit_id2">ca-app-pub-9732878500971486/4728418235</string>
+    <string name="bonificado_ad_unit_id3">ca-app-pub-9732878500971486/3415336560</string>
+    <string name="bonificado_ad_unit_id4">ca-app-pub-9732878500971486/9776413559</string>
+    <string name="bonificado_ad_unit_id5">ca-app-pub-9732878500971486/2963786715</string>
+
+    <string-array name="arrayBonificado">
+        <item>@string/bonificado_ad_unit_id1</item>
+        <item>@string/bonificado_ad_unit_id2</item>
+        <item>@string/bonificado_ad_unit_id3</item>
+        <item>@string/bonificado_ad_unit_id4</item>
+        <item>@string/bonificado_ad_unit_id5</item>
+    </string-array>
+</resources>

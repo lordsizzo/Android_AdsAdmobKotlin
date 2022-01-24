@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adBannerTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_id">
+    </com.google.android.gms.ads.AdView>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearButtons"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_margin="5dp"
+            android:text="Ads Testing"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInterstial"
+            android:layout_margin="5dp"
+            android:text="Interstial"
+            android:background="@color/azul_creativity"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRewarded"
+            android:layout_margin="5dp"
+            android:background="@color/verde_creativity"
+            android:textColor="@color/white"
+            android:text="Rewarded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adBannerBottom"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_id2">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
